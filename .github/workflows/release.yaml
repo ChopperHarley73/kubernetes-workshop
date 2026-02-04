@@ -11,6 +11,7 @@ jobs:
       contents: write
       actions: read
       packages: write
+      security-events: none
 
     uses: kairos-io/kairos-factory-action/.github/workflows/reusable-factory.yaml@main
 
